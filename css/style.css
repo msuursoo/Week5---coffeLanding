@@ -35,7 +35,7 @@ body{
 }
 
 .intro-image_link a:hover{
-    transform: scale(1.2); /*muudab elemendi suurust 1.5 võrra rohkem*/
+    transform: scale(1.1); /*muudab elemendi suurust 1.5 võrra rohkem*/
 
 }
 
@@ -81,7 +81,7 @@ body{
 }
 
 .quality-image_link a:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .quality-text {
@@ -110,6 +110,22 @@ body{
     display: flex; /*jagab lehekülje ridadeks*/
     align-items: center; /* paigaldab vertikaal suunas*/
     justify-content: center;
+}
+
+.origin-image_link a {
+    background-color: #634027d3;
+    border: 2px solid #634027;
+    color: #bc8d6a;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none; /* võtab joone nime alt maha*/
+    text-transform: uppercase; /*text CAPS'iga*/
+    transition: all 0.6s ease-in-out;
+}
+
+.origin-image_link a:hover {
+    transform: scale(1.1);
 }
 
 .origin-text {
