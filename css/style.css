@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image{
+    background-attachment: fixed; /*fikseerib pildi tema asukohas*/
+    background-image: url('../img/image1.jpeg');
+    background-size: cover; /*Paneb pildi tervele alale*/
+    background-position: center ;
+    height: 600px;
+    display: flex; /*jagab lehekülje ridadeks*/
+    align-items: center; /* paigaldab vertikaal suunas*/
+    justify-content: center; /* paigaldab elemendi horisontaal suunas*/
+}
+
+.intro-image_link a {
+    background-color: #66766c8a;
+    border: 2px solid #66766c;
+    color: #c0b9a2;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none; /* võtab joone nime alt maha*/
+    text-transform: uppercase; /*text CAPS'iga*/
+    transition: all 0.6s ease-in-out; /* all - kõik animatsioonid missul praegu on. Ease-in-out: teeb algust aeglasemini.*/
+}
+
+.intro-image_link a:hover{
+    transform: scale(1.2); /*muudab elemendi suurust 1.5 võrra rohkem*/
+
+}
+
+.intro-text {
+    background-color: #63513d;
+    color: #c0b9a2;
+    display: flex; /*jagab lehekülje ridadeks*/
+    align-items: center; /* paigaldab vertikaal suunas*/
+    justify-content: center;
+     /* paigaldab elemendi horisontaal suunas*/
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.intro-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url('../img/image2.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex; /*jagab lehekülje ridadeks*/
+    align-items: center; /* paigaldab vertikaal suunas*/
+    justify-content: center;
+     /* paigaldab elemendi horisontaal suunas*/
+}
+
+.quality-image_link a {
+    background-color: #7a5f55c2;
+    border: 2px solid #7a5f55;
+    color: #c2ab9d;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none; /* võtab joone nime alt maha*/
+    text-transform: uppercase; /*text CAPS'iga*/
+    transition: all 0.6s ease-in-out;
+}
+
+.quality-image_link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text {
+    background-color: #6c6266;
+    color: #e4d6d1;
+    display: flex; /*jagab lehekülje ridadeks*/
+    align-items: center; /* paigaldab vertikaal suunas*/
+    justify-content: center;
+     /* paigaldab elemendi horisontaal suunas*/
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.quality-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('../img/image3.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex; /*jagab lehekülje ridadeks*/
+    align-items: center; /* paigaldab vertikaal suunas*/
+    justify-content: center;
+}
+
+.origin-text {
+    background-color: #372a1c;
+    color: #bc8d6a;
+    display: flex; /*jagab lehekülje ridadeks*/
+    align-items: center; /* paigaldab vertikaal suunas*/
+    justify-content: center;
+     /* paigaldab elemendi horisontaal suunas*/
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.origin-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #3e4653;
+    color: #c2ab9d;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #c2ab9d;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
+
